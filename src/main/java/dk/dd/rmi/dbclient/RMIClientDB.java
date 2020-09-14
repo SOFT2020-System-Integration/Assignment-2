@@ -20,12 +20,13 @@ public class RMIClientDB
         List<Customer> list=obj.findAllByName("Alice Wonderland");
         for(Customer c:list)
         {
-            System.out.println(c.getAccnum()+ " " + c.getName() + " " + c.getAmount());
+            //System.out.println(c.getAccnum()+ " " + c.getName() + " " + c.getAmount());
         }
-
         List<Customer> list2 = obj.getDatabaseSize();
         System.out.println(list2.size());
-
+        obj.ReadFileToDatabase();
+        List<Customer> list3 = obj.getDatabaseSize();
+        System.out.println(list3.size());
     }
   
 } 
