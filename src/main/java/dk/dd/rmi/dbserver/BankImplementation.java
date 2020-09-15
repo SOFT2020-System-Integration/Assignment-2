@@ -112,34 +112,53 @@ public class BankImplementation extends UnicastRemoteObject implements BankInter
         }
         return list;
     }
+
+
     JSONParser parser = new JSONParser();
     @Override
-    public void ReadFileToDatabase() throws RemoteException {
-
+    public int ReadFileToDatabase() throws RemoteException {
         try {
-            Object obj = parser.parse(new FileReader("C:/Users/Andreas/Desktop/System Integration/Assignment_2/src/main/resources/newData.json"));
-            JSONObject jsonObject = (JSONObject) obj;
-            JSONArray customers = (JSONArray) jsonObject.get("customers");
-            Iterator<JSONObject> iterator = customers.iterator();
-            while(iterator.hasNext()){
-
-                long accnum = (long) iterator.next().get("accnum");
-                String name = (String) iterator.next().get("name");
-                double amount = (double) iterator.next().get("amount");
-
+            JSONArray tempArr = (JSONArray) parser.parse(new FileReader("C:/Users/Andreas/Desktop/System Integration/Assignment_2/src/main/resources/newData.json"));
+            for (Object obj : tempArr) {
+                JSONObject tempObj = (JSONObject) obj;
+                long accnum = (long) tempObj.get("accnum");
+                String name = (String) tempObj.get("name");
+                double amount = (double) tempObj.get("amount");
                 Customer c = new Customer();
-                c.setAccnum(accnum);
                 c.setName(name);
                 c.setAmount(amount);
+                c.setAccnum(accnum);
                 InsertCustomer(c);
+
             }
+
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
             e.printStackTrace();
         }
+        return DatabaseDiskUse();
 
     }
+    public int DatabaseDiskUse(){
+        int data_size = 0;
+        try {
+
+            Class.forName(driver);
+            Connection con = DriverManager.getConnection(url, user, password);
+            PreparedStatement ps = con.prepareStatement("CALL DISK_SPACE_USED('Customer');");
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                data_size = rs.getInt(1);
+            }
+            con.close();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return data_size;
+
+    }
+
     public void InsertCustomer(Customer customer){
         try {
             Class.forName(driver);

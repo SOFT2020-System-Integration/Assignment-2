@@ -1,24 +1,22 @@
-{
-  "customers": [
-    {
-      "accnum": 4567,
-      "name": "Krish",
-      "amount": 12313123.0
-    },
-    {
-      "accnum":5678 ,
-      "name": "Peter",
-      "amount": 1000000.0
-    },
-    {
-      "accnum":6789 ,
-      "name": "Jonas",
-      "amount": 250.0
-    },
-    {
-      "accnum":7890 ,
-      "name": "Dora",
-      "amount": 1.0
-    },
-  ]
-}
+[
+  {
+    "accnum": 4567,
+    "name": "Krish",
+    "amount": 12313123.0
+  },
+  {
+    "accnum": 5678,
+    "name": "Peter",
+    "amount": 1000000.0
+  },
+  {
+    "accnum": 6789,
+    "name": "Jonas",
+    "amount": 250.0
+  },
+  {
+    "accnum": 7890,
+    "name": "Dora",
+    "amount": 1.0
+  }
+]

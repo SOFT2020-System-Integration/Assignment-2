@@ -11,5 +11,5 @@ public interface BankInterface extends Remote
     // List<Customer> findAllMillions();
      List<Customer> findAllByName(String name) throws RemoteException;
      List<Customer> getDatabaseSize() throws RemoteException;
-     void ReadFileToDatabase() throws RemoteException;
+     int ReadFileToDatabase() throws RemoteException;
 }
