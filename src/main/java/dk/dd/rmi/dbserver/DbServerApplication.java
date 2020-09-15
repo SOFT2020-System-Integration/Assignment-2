@@ -19,5 +19,4 @@ public class DbServerApplication
     {
         SpringApplication.run(DbServerApplication.class, args);
     }
-
 }

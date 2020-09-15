@@ -22,7 +22,7 @@ import java.util.List;
 public class BankImplementation extends UnicastRemoteObject implements BankInterface
 {
     // public static String url = "jdbc:h2:mem:Bank";
-    public static String url = "jdbc:h2:file:C:/Users/Andre/Desktop/System Integration/soft2020fall-si-master/soft2020fall-si-master/code/P5-RMI-DB-Server/src/main/resources/db/bank";
+    public static String url = "jdbc:h2:file:C:/Users/thoma/Documents/Cphbusiness-Lyngby-Softwareudvikling/System-Integration/Assignment-2/src/main/resources/db/bank";
     public static String user = "sa";
     public static String password = "";
     public static String driver = "org.h2.Driver";
