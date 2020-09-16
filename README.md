@@ -15,13 +15,13 @@ ___
  - Step 1: Initiziate Spring.
     - Navigate to Files => New Project => Spring Initilizr
     
-    ![Initilizr](<ReadmeIMGs/newProject1.PNG>)
-    ![Initilizr](<ReadmeIMGs/newProject2.PNG>)
-    ![Initilizr](<ReadmeIMGs/newProject3.PNG>)
+      ![Initilizr](<ReadmeIMGs/newProject1.PNG>)
+      ![Initilizr](<ReadmeIMGs/newProject2.PNG>)
+      ![Initilizr](<ReadmeIMGs/newProject3.PNG>)
     
-    This will auto generate the target folder.
+      This will auto generate the target folder.
     
-    ![Initilizr](<ReadmeIMGs/TargetKlip.PNG>)
+      ![Initilizr](<ReadmeIMGs/TargetKlip.PNG>)
  
  - Step 2: Connect Database.
     - To connect to the database navigate to right corner of your intellij and click the
