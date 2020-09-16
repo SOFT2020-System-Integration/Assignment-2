@@ -15,28 +15,28 @@ ___
  - Step 1: Initiziate Spring.
     - Navigate to Files => New Project => Spring Initilizr
     
-    ![Initilizr](newProject1.PNG)
-    ![Initilizr](newProject2.PNG)
-    ![Initilizr](newProject3.PNG)
+    ![Initilizr](ReadmeIMGs/newProject1.PNG)
+    ![Initilizr](ReadmeIMGs/newProject2.PNG)
+    ![Initilizr](ReadmeIMGs/newProject3.PNG)
     
     This will auto generate the target folder.
     
-    ![Initilizr](TargetKlip.PNG)
+    ![Initilizr](ReadmeIMGs/TargetKlip.PNG)
  
  - Step 2: Connect Database.
     - To connect to the database navigate to right corner of your intellij and click the
       database window
       
-      ![Initilizr](Database.PNG)
+      ![Initilizr](ReadmeIMGs/Database.PNG)
       
       Next click the "+" and pick "Data Source from Path "
       
-      ![Initilizr](addbypath.PNG)
+      ![Initilizr](ReadmeIMGs/addbypath.PNG)
       
       Navigate to the .mv.db file in the resources folder
       
       NOTE: Remember to change your connection URL in "BankImplimentation" 
-      ![Initilizr](urlpathdb.PNG)
+      ![Initilizr](ReadmeIMGs/urlpathdb.PNG)
       
  - Step 3: Add JSON.Simpel.jar to your intellij.
     - If you do not have it, Download the JSON.simpel from google, and add to your intellij program folder.
