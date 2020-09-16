@@ -15,28 +15,28 @@ ___
  - Step 1: Initiziate Spring.
     - Navigate to Files => New Project => Spring Initilizr
     
-    ![Initilizr](ReadmeIMGs/newProject1.PNG)
-    ![Initilizr](ReadmeIMGs/newProject2.PNG)
-    ![Initilizr](ReadmeIMGs/newProject3.PNG)
+    ![Initilizr](https://github.com/SOFT2020-System-Integration/Assignment-2/tree/master/ReadmeIMGs/newProject1.PNG)
+    ![Initilizr](https://github.com/SOFT2020-System-Integration/Assignment-2/tree/master/ReadmeIMGs/newProject2.PNG)
+    ![Initilizr](https://github.com/SOFT2020-System-Integration/Assignment-2/tree/master/ReadmeIMGs/newProject3.PNG)
     
     This will auto generate the target folder.
     
-    ![Initilizr](ReadmeIMGs/TargetKlip.PNG)
+    ![Initilizr](https://github.com/SOFT2020-System-Integration/Assignment-2/tree/master/ReadmeIMGs/TargetKlip.PNG)
  
  - Step 2: Connect Database.
     - To connect to the database navigate to right corner of your intellij and click the
       database window
       
-      ![Initilizr](ReadmeIMGs/Database.PNG)
+      ![Initilizr](https://github.com/SOFT2020-System-Integration/Assignment-2/tree/master/ReadmeIMGs/Database.PNG)
       
       Next click the "+" and pick "Data Source from Path "
       
-      ![Initilizr](ReadmeIMGs/addbypath.PNG)
+      ![Initilizr](https://github.com/SOFT2020-System-Integration/Assignment-2/tree/master/ReadmeIMGs/addbypath.PNG)
       
       Navigate to the .mv.db file in the resources folder
       
       NOTE: Remember to change your connection URL in "BankImplimentation" 
-      ![Initilizr](ReadmeIMGs/urlpathdb.PNG)
+      ![Initilizr](https://github.com/SOFT2020-System-Integration/Assignment-2/tree/master/ReadmeIMGs/urlpathdb.PNG)
       
  - Step 3: Add JSON.Simpel.jar to your intellij.
     - If you do not have it, Download the JSON.simpel from google, and add to your intellij program folder.
