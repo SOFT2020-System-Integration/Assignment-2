@@ -14,7 +14,7 @@ ___
 
  - Step 1: Initiziate Spring.
     - Navigate to Files => New Project => Spring Initilizr
-    
+         
       ![Initilizr](<ReadmeIMGs/newProject1.PNG>)
       ![Initilizr](<ReadmeIMGs/newProject2.PNG>)
       ![Initilizr](<ReadmeIMGs/newProject3.PNG>)
