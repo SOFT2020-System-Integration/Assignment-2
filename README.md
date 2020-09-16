@@ -15,9 +15,9 @@ ___
  - Step 1: Initiziate Spring.
     - Navigate to Files => New Project => Spring Initilizr
     
-    ![Initilizr](<ReadmeIMGs/newProject1.PNG>)
-    ![Initilizr](<ReadmeIMGs/newProject2.PNG>)
-    ![Initilizr](<ReadmeIMGs/newProject3.PNG>)
+    ![Initilizr](<ReadmeIMGs/newProject1.png>)
+    ![Initilizr](<ReadmeIMGs/newProject2.png>)
+    ![Initilizr](<ReadmeIMGs/newProject3.png>)
     
     This will auto generate the target folder.
     
