@@ -129,7 +129,6 @@ public class BankImplementation extends UnicastRemoteObject implements BankInter
                 c.setAmount(amount);
                 c.setAccnum(accnum);
                 InsertCustomer(c);
-
             }
 
         } catch (IOException e) {
